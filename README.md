@@ -34,9 +34,6 @@ Apply Python skills to solve a real-world problem or build a complete applicatio
 - Python English Courses:
   - [Freecodecamp](https://www.youtube.com/watch?v=rfscVS0vtbw)
  
-- Python Arabic Courses:
-  - [Mastering python by Elzero](https://www.youtube.com/watch?v=mvZHDpCHphk&list=PLDoPjvoNmBAyE_gei5d18qkfIe-Z8mocs)
-  - [Codezellia](https://youtube.com/playlist?list=PLuXY3ddo_8nzrO74UeZQVZOb5-wIS6krJ)
  
 # 1. OOP 🎨
 django is an object oriented framework so you need to master the OOP concepts to be able to understand django and use it in the right way
@@ -45,9 +42,7 @@ django is an object oriented framework so you need to master the OOP concepts to
 - [OOP in python Real Python Blog](https://realpython.com/python3-object-oriented-programming/)
 - [Tech With Tim OOP Crash Course](https://www.youtube.com/watch?v=JeznW_7DlB0)
 - [OOP in python Playlist with Corey Schafer](https://www.youtube.com/watch?v=ZDa-Z5JzLYM)
-- [OOP python by Codezilla (Arabic)](https://www.youtube.com/watch?v=A9kSngn7254&ab_channel=Codezilla)
-- [Play List By Elzero (Arabic)](https://www.youtube.com/watch?v=V7WP_402HE0&list=PLUgz8T_NoattU54gGARPXPmmawQNl-1_T&ab_channel=ElzeroWebSchool)
-- [PlayList by Mahmoud Ahmed  (Arabic)](https://www.youtube.com/watch?v=rE0F6KVuwJ0&list=PLtGOJcWqvbqePpE7IWDRTDXo_jjGvJsRA&ab_channel=MahmoudAhmed-%D9%85%D8%AD%D9%85%D9%88%D8%AF%D8%A3%D8%AD%D9%85%D8%AF)
+
 
 
 ### Practice:
@@ -79,20 +74,75 @@ You are going to build web applications so you need to know how the web works an
 
 ### Topics:
 
-- Models
-- Views
-- Templates
-- Urls
-- Forms
-- Admin
-- Authentication
-- Signals
-- Middlewares
-- Django ORM
-- Django Rest Framework
-- Django Channels
-- Django Celery
-- Django Testing
+### 1. Models:
+- **Description:** Models in Django represent the structure of your database. They define the fields and behavior of data entities.
+- **Resource:**
+  - [Django Models Documentation](https://docs.djangoproject.com/en/3.2/topics/db/models/)
+
+### 2. Views:
+- **Description:** Views handle user requests, process data, and return an appropriate response. They are responsible for the application's logic.
+- **Resource:**
+  - [Django Views Documentation](https://docs.djangoproject.com/en/3.2/topics/http/views/)
+
+### 3. Templates:
+- **Description:** Templates define how data is presented in HTML. They allow you to separate the design from the business logic.
+- **Resource:**
+  - [Django Templates Documentation](https://docs.djangoproject.com/en/3.2/topics/templates/)
+
+### 4. URLs:
+- **Description:** URL patterns in Django map the requested URL to the appropriate view. They define the routing for your web application.
+- **Resource:**
+  - [Django URLconfs Documentation](https://docs.djangoproject.com/en/3.2/topics/http/urls/)
+
+### 5. Forms:
+- **Description:** Forms handle user input and validate data. They are used to create, update, and validate data from the user.
+- **Resource:**
+  - [Django Forms Documentation](https://docs.djangoproject.com/en/3.2/topics/forms/)
+
+### 6. Admin:
+- **Description:** The Django admin is a built-in application for handling the administrative tasks of a Django project.
+- **Resource:**
+  - [Django Admin Documentation](https://docs.djangoproject.com/en/3.2/ref/contrib/admin/)
+
+### 7. Authentication:
+- **Description:** Django provides a robust authentication system to manage user authentication and authorization.
+- **Resource:**
+  - [Django Authentication Documentation](https://docs.djangoproject.com/en/3.2/topics/auth/)
+
+### 8. Signals:
+- **Description:** Signals allow certain senders to notify a set of receivers when some action has taken place.
+- **Resource:**
+  - [Django Signals Documentation](https://docs.djangoproject.com/en/3.2/topics/signals/)
+
+### 9. Middlewares:
+- **Description:** Middlewares are hooks that process requests and responses globally before reaching the view or after leaving the view.
+- **Resource:**
+  - [Django Middleware Documentation](https://docs.djangoproject.com/en/3.2/topics/http/middleware/)
+
+### 10. Django ORM (Object-Relational Mapping):
+- **Description:** Django ORM is a powerful tool for interacting with databases using Python objects.
+- **Resource:**
+  - [Django ORM Documentation](https://docs.djangoproject.com/en/3.2/topics/db/)
+
+### 11. Django Rest Framework:
+- **Description:** Django Rest Framework is a powerful and flexible toolkit for building Web APIs in Django applications.
+- **Resource:**
+  - [Django Rest Framework Documentation](https://www.django-rest-framework.org/)
+
+### 12. Django Channels:
+- **Description:** Django Channels extends Django to handle WebSockets, background tasks, and other asynchronous protocols.
+- **Resource:**
+  - [Django Channels Documentation](https://channels.readthedocs.io/en/latest/)
+
+### 13. Django Celery:
+- **Description:** Celery is an asynchronous task queue/job queue based on distributed message passing.
+- **Resource:**
+  - [Django Celery Documentation](https://docs.celeryproject.org/en/stable/django/)
+
+### 14. Django Testing:
+- **Description:** Django provides a testing framework for writing and running tests to ensure your application works as expected.
+- **Resource:**
+  - [Django Testing Documentation](https://docs.djangoproject.com/en/3.2/topics/testing/)
 
 
 ### Resources
@@ -100,22 +150,7 @@ You are going to build web applications so you need to know how the web works an
 - Django English Courses:
   - [Django Tutorial by Corey Schafer](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&ab_channel=CoreySchafer)
   - [Django 3.0 Tutorial by Dennis Ivy](https://www.youtube.com/playlist?list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO)
-  - [Django Tutorial by Telusko](https://www.youtube.com/playlist?list=PLsyeobzWxl7r2ukVgTqIQcl-1T0C2mzau)
-  - [Django Tutorial by CodeWithHarry](https://www.youtube.com/playlist?list=PLK8cqdr55Tsv-D2HMdrnD32oOVBNvmxjr)
-  - [Django 3.2 CodingEntrepreneurs (Python Web Development Tutorial Series)](https://www.youtube.com/playlist?list=PLEsfXFp6DpzRMby_cSoWTFw8zaMdTEXgL)
-  - [ Django REST API with CodingEntrepreneurs](https://www.youtube.com/watch?v=c708Nf0cHrs)
-
-
-- Django Arabic Courses:
-  - [Django Tutorial by Abdulrahman Gamal](https://www.youtube.com/watch?v=UPFKAG9rYOE&list=PLknwEmKsW8OtK_n48UOuYGxJPbSFrICxm&ab_channel=AbdelrahmanGamal)
-  - [Django For Beginners by CodingMirror](https://www.youtube.com/watch?v=gEWJD-OzuiE&list=PL2z1gXAKH9c3XUn2HYMWRbAon4z6AQ4CL&ab_channel=CodingMirror)
-  - [Django long and very detailed playlist py Hassona Accademy](https://www.youtube.com/watch?v=-Loc7HxKqAw&list=PLHIfW1KZRIfnYEkYsNi5XJLI57OWMKBjM&ab_channel=HassounaAcademy)
-
-
-- Best Django Paid Courses:
-  - [The Ultimate Django Series By Mosh Hamadani](https://codewithmosh.com/p/the-ultimate-django-series)
-
-
+  
 
 # 4. Deployment 🧑‍🔬
 - Nginx
