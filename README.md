@@ -72,6 +72,19 @@ You are going to build web applications so you need to know how the web works an
 
 # 3. Django 🧑🏼‍💻
 
+### Design
+
+### 1. Model (MVC) - Model (Django MVT):
+Description (MVC): The model represents the application's data and business logic. It defines how data is stored, retrieved, and manipulated.
+Django MVT: In Django, the model plays a similar role. It defines the structure of the database, including tables and relationships. Django models are Python classes that interact with the database through an Object-Relational Mapping (ORM) system.
+### 2. View (MVC) - View (Django MVT):
+Description (MVC): The view manages the presentation logic and user interface. It receives user input, processes it, and communicates with the model to update the data.
+Django MVT: In Django, the view is responsible for processing user requests, interacting with the model to retrieve or update data, and returning an appropriate response. It doesn't handle the presentation directly; that's the role of the template.
+### 3. Controller (MVC) - Template (Django MVT):
+Description (MVC): The controller processes user input from the view, updates the model accordingly, and sends the updated data back to the view.
+Django MVT: Django uses templates to handle the presentation logic, which is similar to the controller in the MVC pattern. Templates are responsible for generating the HTML and presenting data to the user. Views in Django, on the other hand, handle the application logic and interact with the model.
+
+
 ### Topics:
 
 ### 1. Models:
